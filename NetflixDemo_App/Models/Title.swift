@@ -1,5 +1,5 @@
 //
-//  Movie.swift
+//  Title.swift
 //  NetflixDemo_App
 //
 //  Created by KODDER on 10.10.2022.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-struct TrendingMoviesResponse: Codable {
-    let results: [Movie]
+struct TrendingTitleResponse: Codable {
+    let results: [Title]
 }
 
-struct Movie: Codable {
+struct Title: Codable {
     let id: Int
     let media_type: String?
     let original_name: String?
